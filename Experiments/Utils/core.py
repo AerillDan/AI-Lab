@@ -14,7 +14,7 @@ graph = {
 from __future__ import annotations
 
 from collections import deque
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass #used to create a class that holds the results of the search algorithms
 from heapq import heappop, heappush
 from math import inf
 from time import perf_counter
